@@ -39,7 +39,7 @@ a {
 .container {
   margin: auto;
   max-width: 1300px;
-  overflow: auto;
+  overflow: hidden;
   padding: 0 10px;
 }
 
@@ -105,7 +105,7 @@ form .form-control {
 
 /* Navbar */
 #navbar {
-  overflow: auto;
+  overflow: hidden;
   padding: 20px 0;
 }
 
@@ -334,8 +334,11 @@ form .form-control {
   margin: 16px 0;
   margin-left: 20%;
   font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border-radius: 10px;
 }
 .form-register .boton:hover{
   cursor: pointer;
+  color: white;
+  
 }
